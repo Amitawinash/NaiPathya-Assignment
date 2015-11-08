@@ -1,0 +1,145 @@
+<html>
+<head>
+<!-- jQuery library (served from Google) -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="js/jquery.bxslider.min.js"></script>
+<!-- bxSlider CSS file -->
+<link href="lib/jquery.bxslider.css" rel="stylesheet" />
+
+<style>
+	
+	#parent_div_1, #parent_div_2, #parent_div_3{
+	    border:1px solid red;
+	    margin-right:2px;
+	    float:left;
+		
+	}
+	.child_div_1{
+	    
+	    float:left;
+	    margin-right:5px;
+	}
+	table, th, td {
+		    border: 1px solid black;
+		    border-collapse: collapse;
+		    background-color: lightgrey;
+		    width: 300px;
+		    padding: 25px;
+		    border: 6px solid navy;
+		    margin-left: 20%;
+		}
+		th, td {
+		    padding: 5px;
+		    text-align: left;
+	            background-color: lightgrey;
+		    width: 300px;
+		    padding: 25px;
+		    border: 6px solid navy;
+		    margin: 25px;
+		}
+</style>
+</head>
+
+
+<body>
+<div id='parent_div_1' style="margin-top:50px;">
+	<div >
+		<marquee direction="up">This text will scroll from bottom to up
+			<br> <a href="http://www.google.com/html/">For more information </a>
+			</br>
+<br> <a href="http://www.google.com/html/">For more information </a>
+			</br>
+<br> <a href="http://www.google.com/html/">For more information </a>
+			</br>
+<br> <a href="http://www.google.com/html/">For more information </a>
+			</br>
+
+<br> <a href="http://www.google.com/html/">For more information </a>
+			</br>
+<br> <a href="http://www.google.com/html/">For more information </a>
+			</br>
+<br> <a href="http://www.google.com/html/">For more information </a>
+			</br>
+<br> <a href="http://www.google.com/html/">For more information </a>
+			</br>
+		</marquee>
+	</div>
+	<div >
+		<marquee direction="up">This text will scroll from bottom to up
+			<br> <a href="http://www.google.com/html/">For more information </a>
+			</br>
+<br> <a href="http://www.google.com/html/">For more information </a>
+			</br>
+<br> <a href="http://www.google.com/html/">For more information </a>
+			</br>
+<br> <a href="http://www.google.com/html/">For more information </a>
+			</br>
+
+<br> <a href="http://www.google.com/html/">For more information </a>
+			</br>
+<br> <a href="http://www.google.com/html/">For more information </a>
+			</br>
+<br> <a href="http://www.google.com/html/">For more information </a>
+			</br>
+<br> <a href="http://www.google.com/html/">For more information </a>
+			</br>
+		</marquee>
+	</div>
+<div>
+		<marquee direction="up">This text will scroll from bottom to up
+			<br> <a href="http://www.google.com/html/">For more information </a>
+			</br>
+<br> <a href="http://www.google.com/html/">For more information </a>
+			</br>
+<br> <a href="http://www.google.com/html/">For more information </a>
+			</br>
+<br> <a href="http://www.google.com/html/">For more information </a>
+			</br>
+
+<br> <a href="http://www.google.com/html/">For more information </a>
+			</br>
+<br> <a href="http://www.google.com/html/">For more information </a>
+			</br>
+<br> <a href="http://www.google.com/html/">For more information </a>
+			</br>
+<br> <a href="http://www.google.com/html/">For more information </a>
+			</br>
+		</marquee>
+	</div>
+</div>
+
+<div id='parent_div_2' style="margin-left:25%; float:none">
+	<div class="image-slider" style="width:75%">
+		<div data-p="225.00">
+		<img data-u="image" src="img/red.jpg" />
+	    </div>
+	    <div data-p="225.00">
+		<img data-u="image" src="img/purple.jpg" />
+	    </div>
+	    <div data-p="225.00">
+		<img data-u="image" src="img/blue.jpg" />
+	    </div>
+	</div>
+</div>
+<div>
+<table style="width:75%">
+		  <tr>
+			    <th><h1>BLOG</h1>
+				<h4>This Blog is very use full for healthcare as you can get free......</h4><br></br>
+				<a href="http://www.google.com">Go to BLOG!</a></th>
+			    <th><h1>LINKS</h1></th>
+			    <th><h1>KEEK IN TOUCH</h1></th>
+		  </tr>
+		  <tr>
+		
+		  </tr>
+	</table>
+</div>
+<script>
+	$(document).ready(function(){
+	  $('.image-slider').bxSlider();
+	});
+</script>
+</body>
+</html>
